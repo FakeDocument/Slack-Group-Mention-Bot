@@ -1,0 +1,10 @@
+{
+  "include":["node_modules/*","src/*"],
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES5",
+    "outDir": "build"
+  }
+}

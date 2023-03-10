@@ -1,0 +1,120 @@
+[
+  {
+    "groupName": "Sales",
+    "virtual_mention": [
+      "sales",
+      "deal",
+      "customers"
+    ],
+    "include": [],
+    "members": [
+      "OliverBrown",
+      "EmmaDavis",
+      "EthanJohnson",
+      "SophiaGreen",
+      "BenjaminWilson",
+      "IsabellaWhite",
+      "DanielClark",
+      "CharlotteBaker",
+      "GraceAdams",
+      "JackThompson"
+    ]
+  },
+  {
+    "groupName": "Marketing",
+    "virtual_mention": [
+      "marketing",
+      "promotion",
+      "campaign"
+    ],
+    "include": [],
+    "members": [
+      "WilliamDavis",
+      "AvaLee",
+      "JamesJohnson",
+      "MiaHall",
+      "LoganWilson",
+      "EllaMartin",
+      "JacksonAllen",
+      "ChloeCarter",
+      "LilyCooper",
+      "LucasGarcia"
+    ]
+  },
+  {
+    "groupName": "HumanResources",
+    "virtual_mention": [
+      "HR",
+      "hiring",
+      "recruiting"
+    ],
+    "include": [],
+    "members": [
+      "JacobHarris",
+      "MiaMartinez",
+      "NoahClark",
+      "AveryWilliams",
+      "AlexanderLee",
+      "EvelynBaker",
+      "ElijahRodriguez",
+      "MadisonTurner",
+      "EmilyPhillips",
+      "CalebCampbell"
+    ]
+  },
+  {
+    "groupName": "Finance",
+    "virtual_mention": [
+      "finance",
+      "budget",
+      "accounting"
+    ],
+    "include": [],
+    "members": [
+      "AidenScott",
+      "HarperHernandez",
+      "CarterDavis",
+      "AbigailCollins",
+      "MasonLewis",
+      "SofiaAnderson",
+      "JaydenWright",
+      "AmeliaBaker",
+      "MilaCarter",
+      "GabrielRamirez"
+    ]
+  },
+  {
+    "groupName": "IT",
+    "virtual_mention": [
+      "IT",
+      "technology",
+      "software"
+    ],
+    "include": [],
+    "members": [
+      "EthanReed",
+      "EmilyWilliams",
+      "LucasMartin",
+      "AveryDavis",
+      "LiamThompson",
+      "LilaBrown",
+      "CalebRobinson",
+      "NatalieWright",
+      "VictoriaHill",
+      "OliverJackson"
+    ]
+  },
+  {
+    "groupName": "InternetMarketing",
+    "virtual_mention": [
+      "InternetMarketing"
+    ],
+    "include": [
+      "IT",
+      "Marketing"
+    ],
+    "members": [
+      "OliverBrown"
+    ]
+  }
+]
