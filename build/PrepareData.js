@@ -63,7 +63,7 @@ exports.getAllVirtualMention = exports.getGroupDatas = void 0;
 var fs = __importStar(require("fs"));
 var Init_1 = require("./Init");
 //import raw from "../resources/test.json"
-var rpJson = fs.readFileSync("".concat(__dirname, "/.setting.json"), { encoding: "utf-8" });
+var rpJson = fs.readFileSync("".concat(__dirname, "/../resource/groups.json"), { encoding: "utf-8" });
 var raw = JSON.parse(rpJson);
 var getGroupDatas = function () { return __awaiter(void 0, void 0, void 0, function () {
     var userList, data;
@@ -76,13 +76,12 @@ var getGroupDatas = function () { return __awaiter(void 0, void 0, void 0, funct
                 raw.forEach(function (group) {
                     var members = group.members;
                     //includedと同じグループ名のmembersを追加
-                    //console.log(data.find((val)=>{return  val.group==included}));
                     group.include.forEach(function (included) {
                         members = members.concat(raw.find(function (val) { return val.groupName == included; }).members);
                     });
                     //グループのmembersに含まれるメンバーのIDを格納
                     var actualMentions = [];
-                    group.members.forEach(function (member) {
+                    members.forEach(function (member) {
                         var _a;
                         var id = (_a = userList.find(function (user) { return user.name == member; })) === null || _a === void 0 ? void 0 : _a.id;
                         actualMentions.push("<@".concat(id, ">"));
